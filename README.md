@@ -23,11 +23,7 @@
 3. **图像处理**：OpenCV、Pyzbar
 4. **串口通信**：PySerial
 ## 代码结构
-Project/
-
-├── __pycache__/                    
-├── build/                          
-├── dist/                           
+Project/                        
 ├── 3Dmodel.jpg                     
 ├── blue_circle.ico                 
 ├── blue_circle.jpg                 
@@ -36,12 +32,11 @@ Project/
 ├── img_circle1.jpg                 
 ├── img_circle2.jpg                
 ├── img_circle3.jpg                
-├── libiconv.dll                    # 动态链接库文件
+├── libiconv.dll                   
 
-├── libzbar-64.dll                  # 动态链接库文件
+├── libzbar-64.dll                  
 
 ├── logo.jpg                       
-
 ├── main.py                         # 主程序
 
 ├── main.spec                       # 打包配置文件
