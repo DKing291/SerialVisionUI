@@ -26,7 +26,9 @@
 2. **UI 框架**：PyQt5
 3. **图像处理**：OpenCV、Pyzbar
 4. **串口通信**：PySerial
-## 代码结构
+
+## 项目文件结构
+
 Project/                        
 ├── 3Dmodel.jpg                     
 ├── blue_circle.ico                 
@@ -36,19 +38,19 @@ Project/
 ├── img_circle1.jpg                 
 ├── img_circle2.jpg                
 ├── img_circle3.jpg                
-├── libiconv.dll                   
+├── libiconv.dll
 
-├── libzbar-64.dll                  
+├── libzbar-64.dll
 
-├── logo.jpg                       
-├── main.py                         # 主程序
+├── logo.jpg
 
-├── main.spec                       # 打包配置文件
+├── main.py # 主程序
 
-├── Test.py                         # 测试脚本文件
+├── main.spec # 打包配置文件
 
-## 使用说明
+├── Test.py # 测试脚本文件
 
+## 说明
 
 ### 1\. 上位机界面操作
 * **启动设备**：点击界面中的“启动”按钮，开始装配流程。
